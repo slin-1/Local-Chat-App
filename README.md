@@ -26,3 +26,14 @@ The messages sent can only be seen by other connected users (those who entered v
 
 To send a message, type in the respective box and press the send button.  
 To clear the current client's messages, press the clear button.  
+
+## A Quick Showcase of the App
+
+Prior to connecting as a user:  
+![introduction](https://user-images.githubusercontent.com/105820635/237000805-5f096a26-87e6-4cee-aa39-019cd822478d.png)  
+
+Sending normal messages between two users:  
+![messages_between_two](https://user-images.githubusercontent.com/105820635/237000884-57a312b2-2c2d-4bf5-ac18-37b5e4bc9d36.png)
+
+Sending private messages between two users:
+![private_message](https://user-images.githubusercontent.com/105820635/237000926-57ac577a-1b37-421b-bd1f-ffa2bde8b90e.png)
