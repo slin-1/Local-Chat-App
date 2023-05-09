@@ -134,7 +134,7 @@ function outputMessages(privateMessage, message, socket, currentSocketID, userAr
     socket.emit('serverSays', message_self)  //send message to itself
     users.forEach((userName, socketID) => {  //send messages to all valid users
       //console.log(userName + " " + socketID)
-      let message_others = `<span style='color:white'>${users.get(currentSocketID) + ": " + message}</span>`
+      let message_others = `<span style='color:black'>${users.get(currentSocketID) + ": " + message}</span>`
       socket.to(socketID).emit('serverSays', message_others)
     })
   }
