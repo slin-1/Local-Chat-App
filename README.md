@@ -1,11 +1,10 @@
 # Local-Chat-App
 
-### Developed by:      Steven Lin
-
+### Developed by:      Steven Lin  
 #### node.js Version:   `v18.13.0.`  
-#### OS:                `Windows 10`
+#### OS:                `Windows 10`  
 
-## Install:           
+## Install:  
 Requires Node.js to function.  
 `npm install`  
 ^ installs the required node modules (socket.io)  
@@ -14,18 +13,40 @@ Requires Node.js to function.
 `node server.js`  
 ^ while in the correct directory  
 ## Testing:  
-visit: `http://localhost:3000/chatClient.html`  
-Open multiple browsers/pages of the chatClient.  
-Enter a username for each client (required before you can message).  
-The messages sent can only be seen by other connected users (those who entered valid usernames).  
-- Blue = self message  
-- Black = message from others (that all valid users can see)  
-- Red = private message / private group message  
-  - Example of a private group msg: user2, user3: hello  
-    - if sent from user1, then there would be a private group chat between user1, user2, and user3.  
+1. Visit: `http://localhost:3000/chatClient.html`  
+2. Open multiple browsers/pages of the chatClient.  
+3. Enter a username for each client (required before you can message).  
+4. The messages sent can only be seen by other connected users (those who entered valid usernames).  
 
-To send a message, type in the respective box and press the send button.  
-To clear the current client's messages, press the clear button.  
+<ul>
+  <ul>
+    <li>
+      <p><span style="background-color:#1640EA"><b>Blue</b> = self message</span></p>  
+    </li>
+    <li>
+      <p><span style="background-color:#3D3C3F"><b>Black</b> = message from others (that all valid users can see)</span></p>  
+    </li>
+    <li>
+      <p><span style="background-color:#921818"><b>Red</b> = private message / private group message</span>  
+    </li>
+  </ul>
+
+  <ul>
+    <ul>
+      <li>
+        <p>Example of a private group msg: user2, user3: hello</p>  
+      </li>
+      <ul>
+        <li>
+          <p>if sent from user1, then there would be a private group chat between user1, user2, and user3.</p>  
+        </li>
+      </ul>
+    </ul>
+  </ul>
+</ul>
+
+5. To send a message, type in the respective box and press the send button.  
+6. To clear the current client's messages, press the clear button.  
 
 ## A Quick Showcase of the App
 
